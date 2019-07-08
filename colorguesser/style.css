@@ -1,0 +1,88 @@
+.bg {
+  background-color: #88a39e;
+}
+
+.myContainer {
+  max-width: 600px;
+}
+
+.grid-container {
+  width: 100vw;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  padding-bottom: 100px;
+
+}
+
+.bg-main {
+  background-color: #000000;
+  color: #fff;
+}
+
+.cube {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  background: #333;
+  margin: 1rem;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #5f726e;
+}
+
+.state {
+  background-color: #88a39e;
+  color: black;
+  cursor: pointer;
+}
+
+.click:hover {
+  background-color: #88a39e;
+  color: black;
+  cursor: pointer;
+}
+
+.pad {
+  padding-top: inherit;
+  padding-bottom: inherit;
+}
+
+@media only screen and (max-width: 784px) {
+  .cube {
+    height: 130px;
+    width: 130px;
+  }
+
+}
+
+@media only screen and (max-width: 575px) {
+  .cube {
+    height: 130px;
+    width: 130px;
+  }
+
+  .row span {
+    display: block;
+    padding: 5px;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .cube {
+    height: 75px;
+    width: 75px;
+  }
+
+  .row span {
+    display: block;
+    padding: 5px;
+    text-align: center;
+  }
+}
